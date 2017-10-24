@@ -14,9 +14,15 @@ Requirements
 ~~~~~~~~~~~~
 
 To run velocyto you will need python >=3.6.0 (we have no plans to support python<=3.5).
-We recommend to use `anaconda <https://www.continuum.io/downloads>`_ and the ``conda`` command to install dependencies limiting the use of ``pip`` to libraries not available on conda's main channel. (``pip`` can be used too but its dependency-managing migh be less robust). 
+We recommend to use `anaconda <https://www.continuum.io/downloads>`_ and the ``conda`` command to install dependencies limiting the use of ``pip`` to libraries not available on conda's main channel. (``pip`` can be used too but its dependency-managing might be less robust). 
 
-To make sure you have all the dependencies first do:
+If you're installing from a bare machine (e.g. a fresh Ubuntu Linux image), you'll need to install `libgl` and `gcc`:
+
+::
+
+    sudo apt-get install gcc libgl-dev
+
+To make sure you have all the Python dependencies first do:
 
 ::
 
